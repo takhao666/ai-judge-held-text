@@ -13,7 +13,7 @@ const TEXT =
   "Someone has left a blanket folded over its arm, and a cup of tea " +
   "cooling to exactly the temperature you like. " +
   "No one is waiting for you to hurry. " +
-  "The evening can wait. The light is staying.";
+  "The evening can wait. The light is in no hurry to leave.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", TEXT, "utf8");
